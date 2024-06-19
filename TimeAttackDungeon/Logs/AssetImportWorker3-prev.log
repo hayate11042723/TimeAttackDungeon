@@ -1,0 +1,2281 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ja' Physical Memory: 32560 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/fko2347054/Documents/GitHub/TimeAttackDungeon/TimeAttackDungeon
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+64502
+Successfully changed project path to: C:/Users/fko2347054/Documents/GitHub/TimeAttackDungeon/TimeAttackDungeon
+C:/Users/fko2347054/Documents/GitHub/TimeAttackDungeon/TimeAttackDungeon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10256] Host "[IP] 172.18.33.112 [Port] 0 [Flags] 2 [Guid] 178198219 [EditorId] 178198219 [Version] 1048832 [Id] WindowsEditor(7,FIC-PCROOM3C-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10256] Host "[IP] 172.18.33.112 [Port] 0 [Flags] 2 [Guid] 178198219 [EditorId] 178198219 [Version] 1048832 [Id] WindowsEditor(7,FIC-PCROOM3C-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 79.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fko2347054/Documents/GitHub/TimeAttackDungeon/TimeAttackDungeon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.3619
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005959 seconds.
+- Loaded All Assemblies, in  0.647 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.181 seconds
+Domain Reload Profiling: 827ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (184ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (74ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (336ms)
+				TypeCache.ScanAssembly (324ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (140ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.468 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.487 seconds
+Domain Reload Profiling: 954ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (487ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.9 KB). Loaded Objects now: 3576.
+Memory consumption went from 130.6 MB to 130.5 MB.
+Total: 3.421700 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.169400 ms MarkObjects: 2.868500 ms  DeleteObjects: 0.129400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.311 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 1078ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3579.
+Memory consumption went from 131.2 MB to 131.1 MB.
+Total: 3.665100 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.154200 ms MarkObjects: 3.217100 ms  DeleteObjects: 0.060600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.298 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 982ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3582.
+Memory consumption went from 133.1 MB to 133.1 MB.
+Total: 3.584800 ms (FindLiveObjects: 0.438400 ms CreateObjectMapping: 0.126600 ms MarkObjects: 2.960600 ms  DeleteObjects: 0.057400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.298 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 985ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3585.
+Memory consumption went from 135.1 MB to 135.0 MB.
+Total: 4.029800 ms (FindLiveObjects: 0.423400 ms CreateObjectMapping: 0.119500 ms MarkObjects: 3.427600 ms  DeleteObjects: 0.057600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.298 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3588.
+Memory consumption went from 137.0 MB to 137.0 MB.
+Total: 2.924800 ms (FindLiveObjects: 0.171200 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.623800 ms  DeleteObjects: 0.044000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.289 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.681 seconds
+Domain Reload Profiling: 969ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (681ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (398ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3591.
+Memory consumption went from 138.9 MB to 138.9 MB.
+Total: 2.885200 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.111400 ms MarkObjects: 2.415200 ms  DeleteObjects: 0.043800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.297 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 936ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (641ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3594.
+Memory consumption went from 140.9 MB to 140.8 MB.
+Total: 2.263300 ms (FindLiveObjects: 0.160500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 1.993500 ms  DeleteObjects: 0.040700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.299 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 990ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3597.
+Memory consumption went from 142.8 MB to 142.7 MB.
+Total: 3.189800 ms (FindLiveObjects: 0.407100 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.622400 ms  DeleteObjects: 0.041200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.289 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 968ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3600.
+Memory consumption went from 144.7 MB to 144.7 MB.
+Total: 3.337500 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.104900 ms MarkObjects: 2.969500 ms  DeleteObjects: 0.060400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.294 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.684 seconds
+Domain Reload Profiling: 977ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3603.
+Memory consumption went from 146.6 MB to 146.6 MB.
+Total: 3.234900 ms (FindLiveObjects: 0.454700 ms CreateObjectMapping: 0.115300 ms MarkObjects: 2.612900 ms  DeleteObjects: 0.050800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.291 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 1000ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (711ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (424ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3606.
+Memory consumption went from 148.5 MB to 148.5 MB.
+Total: 3.415300 ms (FindLiveObjects: 0.423400 ms CreateObjectMapping: 0.140900 ms MarkObjects: 2.772300 ms  DeleteObjects: 0.076600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.297 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.669 seconds
+Domain Reload Profiling: 965ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (670ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3609.
+Memory consumption went from 150.5 MB to 150.4 MB.
+Total: 3.023100 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.733500 ms  DeleteObjects: 0.042800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.294 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 991ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3612.
+Memory consumption went from 152.4 MB to 152.4 MB.
+Total: 3.422100 ms (FindLiveObjects: 0.215200 ms CreateObjectMapping: 0.129100 ms MarkObjects: 2.972200 ms  DeleteObjects: 0.104300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 459064.792306 seconds.
+  path: Assets/Hatogame_new/Lizard/Animation/Lizard@attack2.FBX
+  artifactKey: Guid(4997eaa1e556a434faf6f7d59df3c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hatogame_new/Lizard/Animation/Lizard@attack2.FBX using Guid(4997eaa1e556a434faf6f7d59df3c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85087aa3315be6b33f192e22cf0a702') in 0.046478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 35.220125 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Black Stone (Candelabra Variation 001)_BaseMap.png
+  artifactKey: Guid(504945463ba2cb44088dd1563fd03541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Black Stone (Candelabra Variation 001)_BaseMap.png using Guid(504945463ba2cb44088dd1563fd03541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95ec3ee9168f2e641db5c925670a34f') in 0.039910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 004)_Metallic.png
+  artifactKey: Guid(f3bba3aa15cec7942aece68b66070ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 004)_Metallic.png using Guid(f3bba3aa15cec7942aece68b66070ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786122899210dbcddafc72c83ee16d3f') in 0.032018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 002)_Albedo.png
+  artifactKey: Guid(f4749bbdc5a17dc41b73f7c6a2e4ea25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 002)_Albedo.png using Guid(f4749bbdc5a17dc41b73f7c6a2e4ea25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f8b58af73583d9e505009e2c6198d4') in 0.025114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_Metallic.png
+  artifactKey: Guid(d2442c3fa587da14c9e9f3b277ff3c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_Metallic.png using Guid(d2442c3fa587da14c9e9f3b277ff3c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c745df5d8e585eef42a06aef55c48d') in 0.026836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_Metallic.png
+  artifactKey: Guid(a384581554714654fa95bc3ef19d8691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_Metallic.png using Guid(a384581554714654fa95bc3ef19d8691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c69b9228708a9ac59d3e0df11948d8c') in 0.029945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Metallic.png
+  artifactKey: Guid(5fafd51f22cd6634c9e4cb43f7b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Metallic.png using Guid(5fafd51f22cd6634c9e4cb43f7b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66179f18b1eb2a838a0b231e22435304') in 0.015494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 006)_Height.png
+  artifactKey: Guid(e97271bc8d501604c9ffccba436ca428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 006)_Height.png using Guid(e97271bc8d501604c9ffccba436ca428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52da92790268e6a5fb3431b276989696') in 0.032149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 004)_BaseMap.png
+  artifactKey: Guid(dd20e397547cdf64f939bfe2abd1e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 004)_BaseMap.png using Guid(dd20e397547cdf64f939bfe2abd1e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfed859ab9e270b7c7211e1dad49886') in 0.030332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_AmbientOcclusion.png
+  artifactKey: Guid(3cde43fa8a72a2443b7e7b31b9b8b282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_AmbientOcclusion.png using Guid(3cde43fa8a72a2443b7e7b31b9b8b282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf328f240ae422d85d90e42c2b49e69') in 0.020148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Albedo.png
+  artifactKey: Guid(3e6b9ebf19404fd49b8aebcd9c349e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Albedo.png using Guid(3e6b9ebf19404fd49b8aebcd9c349e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b5a4b632a778d6049fa5553dabf265') in 0.026984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).001_MaskMap.png
+  artifactKey: Guid(5b8a6e197fcd91d44a554004c34d1a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).001_MaskMap.png using Guid(5b8a6e197fcd91d44a554004c34d1a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fca690e2c0483268f3b093fa68b1d8') in 0.022512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 002)_Metallic.png
+  artifactKey: Guid(9e62eda20b1cfae4d91fb3bbe045fac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 002)_Metallic.png using Guid(9e62eda20b1cfae4d91fb3bbe045fac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5cb22d7d7c56d7e3736b5039859525') in 0.007755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 008)_BaseMap.png
+  artifactKey: Guid(c3197be3cd3260246a75563bfe98c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 008)_BaseMap.png using Guid(c3197be3cd3260246a75563bfe98c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf91afec907c5ef80ab144897ef8a697') in 0.012693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_Albedo.png
+  artifactKey: Guid(cac87a58d4de50d428cc522921dd2073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_Albedo.png using Guid(cac87a58d4de50d428cc522921dd2073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a044f9fb854e1e0389043f163d1c1434') in 0.028060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 007)_Metallic.png
+  artifactKey: Guid(31878e8da606020488625db48c1187d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 007)_Metallic.png using Guid(31878e8da606020488625db48c1187d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4041768714faeae24779f305e89e70bb') in 0.008112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 007)_Height.png
+  artifactKey: Guid(9423620ee8e2b324286f6b4ff4719d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 007)_Height.png using Guid(9423620ee8e2b324286f6b4ff4719d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f64ceb36e9df6fa9c38d4f0a9c83ec1') in 0.007886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_Normal.png
+  artifactKey: Guid(7307aa5cf14b0c746a55148f3ff926ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 003)_Normal.png using Guid(7307aa5cf14b0c746a55148f3ff926ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7db889577ddeba933617faa8fe5ca0') in 0.034357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_BaseMap.png
+  artifactKey: Guid(c27834cecf3b7fb4080ea5f47e089c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_BaseMap.png using Guid(c27834cecf3b7fb4080ea5f47e089c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5cf99e9d997a5f04786a9d922ea5ff') in 0.008538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 010)_BaseMap.png
+  artifactKey: Guid(7b80924c525ddb547b01319107c40e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 010)_BaseMap.png using Guid(7b80924c525ddb547b01319107c40e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469eb455c5103ac78ca1b8e182a3e37d') in 0.007079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 010)_AmbientOcclusion.png
+  artifactKey: Guid(533b67e47a2ea7f428a178b184d52233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 010)_AmbientOcclusion.png using Guid(533b67e47a2ea7f428a178b184d52233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1b33b1de4c2ed7e2b2063df62fe6a5') in 0.012894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_MaskMap.png
+  artifactKey: Guid(093bc54443dcdd64e8b30965df2d2b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 005)_MaskMap.png using Guid(093bc54443dcdd64e8b30965df2d2b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd41840a964b871f8c47201782c29a01') in 0.023269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Normal.png
+  artifactKey: Guid(6dbec5dfbb81c614887e45c0896eea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Book Variation 001)_Normal.png using Guid(6dbec5dfbb81c614887e45c0896eea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb7038a4f1fd3502a5c811fbc2aff18') in 0.012116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.902486 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).002_BaseMap.png
+  artifactKey: Guid(93a4fa7cc2f4cec4f9d56a6b74e03a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).002_BaseMap.png using Guid(93a4fa7cc2f4cec4f9d56a6b74e03a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0df8a5b5225e6925eaaedfd06c7d0bf') in 0.016747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).003_Height.png
+  artifactKey: Guid(e775c1bd3eecf354d907c5fee5b4669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).003_Height.png using Guid(e775c1bd3eecf354d907c5fee5b4669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063965b1829e2204787fbb22de73043d') in 0.008749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_Albedo.png
+  artifactKey: Guid(78597a8b949690c47976aa0a2c9d6018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_Albedo.png using Guid(78597a8b949690c47976aa0a2c9d6018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb27835e9b8cbee4a4ce00d304c1851') in 0.014128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_MaskMap.png
+  artifactKey: Guid(d742a84c17eb39d48b7663917b32507d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_MaskMap.png using Guid(d742a84c17eb39d48b7663917b32507d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa477633edaf7a16759505be3e352d7') in 0.013133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).005_Normal.png
+  artifactKey: Guid(d7eb808560ec48c47a405685e3e36b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).005_Normal.png using Guid(d7eb808560ec48c47a405685e3e36b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7025830e78e66e904b664505bb4e57') in 0.012512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_Metallic.png
+  artifactKey: Guid(5f2d939765c120843891158ce6f2d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_Metallic.png using Guid(5f2d939765c120843891158ce6f2d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e0327b2bb211b00cb6f86047c5c5ec') in 0.007498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).008_MaskMap.png
+  artifactKey: Guid(6581b1415114f4747a093b5747095b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).008_MaskMap.png using Guid(6581b1415114f4747a093b5747095b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526cfef855bc70c3f5a01cdc3d1bbd2f') in 0.022352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_AmbientOcclusion.png
+  artifactKey: Guid(1fac94c0a541ac840a3e79f4a87af451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_AmbientOcclusion.png using Guid(1fac94c0a541ac840a3e79f4a87af451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2c992c6d6814df724bddba554fa8fc') in 0.013832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_BaseMap.png
+  artifactKey: Guid(5a9d8532289912e4cb2f6fa17fe70a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_BaseMap.png using Guid(5a9d8532289912e4cb2f6fa17fe70a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7602dbfaef03d767f23469d8fda65ddd') in 0.013817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_Albedo.png
+  artifactKey: Guid(d958d19d049b8404bba236e341c6d97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_Albedo.png using Guid(d958d19d049b8404bba236e341c6d97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f055b9cc7c4d2d6b8b467bd73c0d8a07') in 0.007416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_BaseMap.png
+  artifactKey: Guid(6b270ad723aeaf747a77e3ba8761bf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).004_BaseMap.png using Guid(6b270ad723aeaf747a77e3ba8761bf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6eff93f00ade13c19c07847b82f6ab8') in 0.008035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).008_Normal.png
+  artifactKey: Guid(e9375df7ca192164d9a1fb391dcbafb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).008_Normal.png using Guid(e9375df7ca192164d9a1fb391dcbafb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e4c73416526c5616ca65db8e5121ad') in 0.014238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_Normal.png
+  artifactKey: Guid(b01312e3065799442961cafbfbe5debf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).007_Normal.png using Guid(b01312e3065799442961cafbfbe5debf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c443fb6e1a993eb2e53edeb71332e5') in 0.011808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.465753 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).009_MaskMap.png
+  artifactKey: Guid(7b313bc050cef894d8699353a7e894a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001).009_MaskMap.png using Guid(7b313bc050cef894d8699353a7e894a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0555ffbb57890a026ca98fc1f55696') in 0.019164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).001_MaskMap.png
+  artifactKey: Guid(66c627aa9fb4b7645a8d5630c14f71eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).001_MaskMap.png using Guid(66c627aa9fb4b7645a8d5630c14f71eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a588cc5115774fc7499c6194ff44dacd') in 0.013573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).002_MaskMap.png
+  artifactKey: Guid(2883713a76dc4f746a5da3ba19a7039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).002_MaskMap.png using Guid(2883713a76dc4f746a5da3ba19a7039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b580e46d7cc4a0813bfa213f99b4eaa') in 0.013104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).003_AmbientOcclusion.png
+  artifactKey: Guid(15cf4b6393980e94dad3fe17ce997599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).003_AmbientOcclusion.png using Guid(15cf4b6393980e94dad3fe17ce997599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e4d9bc0d95d6cb59de345f54bdeb37') in 0.012523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).005_MaskMap.png
+  artifactKey: Guid(af4df50114d448b4d95dc628db76707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).005_MaskMap.png using Guid(af4df50114d448b4d95dc628db76707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e07fe977d5d5f85ad8ed1dae6cea7d9') in 0.014199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).008_BaseMap.png
+  artifactKey: Guid(16ee18a4d3271d9468df9b4e6cf69823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).008_BaseMap.png using Guid(16ee18a4d3271d9468df9b4e6cf69823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54933a277840826e1e1d4431b5bee8f9') in 0.012845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).006_Normal.png
+  artifactKey: Guid(87f7cd510fd5d444abd6d4cdb3a68769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).006_Normal.png using Guid(87f7cd510fd5d444abd6d4cdb3a68769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf0c7a8c7cbb220ee4eed8f0916ccef') in 0.012621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).007_Normal.png
+  artifactKey: Guid(f480ed91ce8247345aa59efca92f5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).007_Normal.png using Guid(f480ed91ce8247345aa59efca92f5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e52dfae6e4a4a0c1ae7ea4729b6dfb') in 0.013220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_Metallic.png
+  artifactKey: Guid(fa84d85713a33074db6ca1b6d04e4fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_Metallic.png using Guid(fa84d85713a33074db6ca1b6d04e4fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049827f6d361019f97623de89387ff69') in 0.007468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_MaskMap.png
+  artifactKey: Guid(e87612ec9d3579a4d96a3f7f268af6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_MaskMap.png using Guid(e87612ec9d3579a4d96a3f7f268af6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd927a06c5b518558f4d06b739f3ab1eb') in 0.013455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002)_Albedo.png
+  artifactKey: Guid(8330e3de092e43a4abb259756db95b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002)_Albedo.png using Guid(8330e3de092e43a4abb259756db95b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad344666c4c84a26e33915e7c89471a5') in 0.013768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001)_Height.png
+  artifactKey: Guid(6059c4628aa69f4449404ce476f83289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 001)_Height.png using Guid(6059c4628aa69f4449404ce476f83289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6685cbfa20986f019a61102b83bf3b') in 0.009720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_Albedo.png
+  artifactKey: Guid(33982f94196e8d440951f03d7c761cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 001).001_Albedo.png using Guid(33982f94196e8d440951f03d7c761cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035d14d0107960af8fba05054de7ae4b') in 0.013742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).002_AmbientOcclusion.png
+  artifactKey: Guid(1a117a3546883444e91dd2b8a0f57fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).002_AmbientOcclusion.png using Guid(1a117a3546883444e91dd2b8a0f57fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62f3709bc2fc90386c22dfa126e55d6') in 0.023891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_AmbientOcclusion.png
+  artifactKey: Guid(ef5db33cb3bf25448b24b2a1ac6f5885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_AmbientOcclusion.png using Guid(ef5db33cb3bf25448b24b2a1ac6f5885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7864cacc6fd6c5de74e98032f157c58b') in 0.017686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_Metallic.png
+  artifactKey: Guid(37c29cb6a5cd07442a05d40b8ad3f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_Metallic.png using Guid(37c29cb6a5cd07442a05d40b8ad3f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c38f5d6e4156f8a2bb2db53967bfab5') in 0.008565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).006_BaseMap.png
+  artifactKey: Guid(7075776aa7a539c4aaede26f525e096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).006_BaseMap.png using Guid(7075776aa7a539c4aaede26f525e096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfb4634c8e50022f1f7695d80df14c4') in 0.016618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).008_MaskMap.png
+  artifactKey: Guid(cabfeafd60300eb468d5a68b5e75564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).008_MaskMap.png using Guid(cabfeafd60300eb468d5a68b5e75564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541357315bf0927c426d14d8adb288df') in 0.020532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).009_Normal.png
+  artifactKey: Guid(ca36e986c2b8e9c4cb67c58d0c58a0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).009_Normal.png using Guid(ca36e986c2b8e9c4cb67c58d0c58a0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01b42ff67eb2f3c1eda9d1ac6b7f4b0') in 0.012631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).008_Albedo.png
+  artifactKey: Guid(5bd154e9cbadaef4e964269db3b88152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).008_Albedo.png using Guid(5bd154e9cbadaef4e964269db3b88152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6165fc3e7bbc38f477e63e1dda3ed86e') in 0.007391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).004_AmbientOcclusion.png
+  artifactKey: Guid(d3592099adcb3ee468f1eac2d0d5ee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).004_AmbientOcclusion.png using Guid(d3592099adcb3ee468f1eac2d0d5ee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65797798057d55ea07892078d3e8928') in 0.013361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_MaskMap.png
+  artifactKey: Guid(e3de9c626482a2a4f87ef2d3d050aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 002)_MaskMap.png using Guid(e3de9c626482a2a4f87ef2d3d050aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75850137dc4e2dfa8ffa1bea4b0c81d6') in 0.024564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).002_Albedo.png
+  artifactKey: Guid(44b6861382146c84cbb9a174cf7584cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Binding (Bookshelf Variation 002).002_Albedo.png using Guid(44b6861382146c84cbb9a174cf7584cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5176fcefc317a06ff26b3d476a4a7de4') in 0.006827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.461552 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 004)_AmbientOcclusion.png
+  artifactKey: Guid(48351c9db7346644db6fbd46bf2b0e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 004)_AmbientOcclusion.png using Guid(48351c9db7346644db6fbd46bf2b0e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1fc7fdc598ceed6486aab02ea61458') in 0.018489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 006)_Albedo.png
+  artifactKey: Guid(f7b03fa507beefc429ac43aae82e0996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 006)_Albedo.png using Guid(f7b03fa507beefc429ac43aae82e0996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708e3e4ded66e782fd23088afcccb0d8') in 0.017323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_AmbientOcclusion.png
+  artifactKey: Guid(98954f080815a5243babb365feebac13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 005)_AmbientOcclusion.png using Guid(98954f080815a5243babb365feebac13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e180e7aaa0be60818cfed26e803c46') in 0.013071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 006)_BaseMap.png
+  artifactKey: Guid(1c27d0b66b2b71a41bf758fbcbf671e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 006)_BaseMap.png using Guid(1c27d0b66b2b71a41bf758fbcbf671e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4770b8284d3250dac233b42a81f0b7') in 0.008279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 008)_MaskMap.png
+  artifactKey: Guid(3fb438370e4f1e24c8571b200fc8dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 008)_MaskMap.png using Guid(3fb438370e4f1e24c8571b200fc8dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c9613992d12b54e5bb52244afe1ecf') in 0.013534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 007)_Normal.png
+  artifactKey: Guid(ede05cc684b6e2e43b02726bf8a91c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 007)_Normal.png using Guid(ede05cc684b6e2e43b02726bf8a91c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed9703ef6eae5b45fcb133b83659e4e') in 0.014815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 008)_Height.png
+  artifactKey: Guid(11532e073c671dc4cae05bbca4d0d371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 008)_Height.png using Guid(11532e073c671dc4cae05bbca4d0d371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3197be3f469ec8ee015e7f417558683') in 0.013021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.344847 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_Albedo.png
+  artifactKey: Guid(8cc84805f211623469b5e68cac914e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_Albedo.png using Guid(8cc84805f211623469b5e68cac914e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d009e5ffd41bc4571e09bf35ca7f2c') in 0.022774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 010)_Metallic.png
+  artifactKey: Guid(b71dc8b7b6f7c3c44ab0e40e91019c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 010)_Metallic.png using Guid(b71dc8b7b6f7c3c44ab0e40e91019c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e24f6f76952b4beb5240f1475d9e46') in 0.007902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 001)_BaseMap.png
+  artifactKey: Guid(b9809bd8e06b5654db7def9f3c8cc2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 001)_BaseMap.png using Guid(b9809bd8e06b5654db7def9f3c8cc2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9267b54d33797bbb091fb200b666f0') in 0.009424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Normal.png
+  artifactKey: Guid(337481ef4749dac43b7b6bb615d3ab72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Normal.png using Guid(337481ef4749dac43b7b6bb615d3ab72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539d8cd10aac39120716999c8e9d38ce') in 0.015340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Bookshelf Variation 001)_Metallic.png
+  artifactKey: Guid(119d177c81cde994497b071f62809941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Bookshelf Variation 001)_Metallic.png using Guid(119d177c81cde994497b071f62809941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceda59b57c0ddf9d7e3b6cd7a17ddf9c') in 0.008034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_Height.png
+  artifactKey: Guid(a6f6fefc091e5d748a10b44a30a8b8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_Height.png using Guid(a6f6fefc091e5d748a10b44a30a8b8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0fff75127d7c4a8f263e3ea5c618ba') in 0.015008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Bookshelf Variation empty 001)_MaskMap.png
+  artifactKey: Guid(40fedc4d299536c438ece6d53dd9fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Bookshelf Variation empty 001)_MaskMap.png using Guid(40fedc4d299536c438ece6d53dd9fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad44a3cf0d3049efb6e5ec5a109d316') in 0.017962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 005)_MaskMap.png
+  artifactKey: Guid(d5a8632aa2e2127489e2213c1e3aeac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 005)_MaskMap.png using Guid(d5a8632aa2e2127489e2213c1e3aeac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f768fdfa8db6b541254a5c200edfa42e') in 0.015177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_AmbientOcclusion.png
+  artifactKey: Guid(2bee7a9a92f29ce49a495e8dd72b6d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_AmbientOcclusion.png using Guid(2bee7a9a92f29ce49a495e8dd72b6d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb8b9a692a74149625d52b0223f51fc') in 0.013646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 001)_MaskMap.png
+  artifactKey: Guid(45e67984edec62d4fb6f2c27e68389c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 001)_MaskMap.png using Guid(45e67984edec62d4fb6f2c27e68389c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6686eac33cea87766d6301e2735f20cf') in 0.013078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_Metallic.png
+  artifactKey: Guid(f60e7285da13ac34f8006caee8a492bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Bookshelf Variation 002)_Metallic.png using Guid(f60e7285da13ac34f8006caee8a492bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d330fd3155a928a41ef28c1c15645b5') in 0.008644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_Normal.png
+  artifactKey: Guid(b23ddaa2314fac3499b0aeba990afa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_Normal.png using Guid(b23ddaa2314fac3499b0aeba990afa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754f34c02936f7fc0fcf85b9b7bc3476') in 0.016813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 005)_Metallic.png
+  artifactKey: Guid(7f55a2e125efc294f89596a66483c29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 005)_Metallic.png using Guid(7f55a2e125efc294f89596a66483c29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c81595076231b6fb0fccd5e72db411b') in 0.007459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 005)_Albedo.png
+  artifactKey: Guid(65161b16c0874104abf43acb6b62053a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 005)_Albedo.png using Guid(65161b16c0874104abf43acb6b62053a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb39fc7cb71b2cd3bf497edea190cac') in 0.007373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_Albedo.png
+  artifactKey: Guid(fa57ba84091a4254c8cf77f3e56ede07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_Albedo.png using Guid(fa57ba84091a4254c8cf77f3e56ede07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e48937791e87afa51d33e615c945f31') in 0.007780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_Height.png
+  artifactKey: Guid(f602ba80b210b65499607167c90603b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Doorway Variation 004)_Height.png using Guid(f602ba80b210b65499607167c90603b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3807a538eb182f48ccede87e5bdc50b2') in 0.013699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_Albedo.png
+  artifactKey: Guid(52b8f93cecbf3c5409edf3341552bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Crate Variation 001)_Albedo.png using Guid(52b8f93cecbf3c5409edf3341552bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c8ffe8bf52df6768f85686a1aea3bb') in 0.013616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_Normal.png
+  artifactKey: Guid(1dfe0384f1ced5f41825d6146f318a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Book Pages (Book Variation 009)_Normal.png using Guid(1dfe0384f1ced5f41825d6146f318a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ce1005280a24090e40157a9a959b4f') in 0.014034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.158768 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Small Crate Variation 001)_AmbientOcclusion.png
+  artifactKey: Guid(0b068a82f75ca6c498e8da6333416711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Small Crate Variation 001)_AmbientOcclusion.png using Guid(0b068a82f75ca6c498e8da6333416711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e684e37d2c5ffe98279d6fcd5056bce9') in 0.032188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_BaseMap.png
+  artifactKey: Guid(669f6e01f6aad4d48b97c5d311ba9610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_BaseMap.png using Guid(669f6e01f6aad4d48b97c5d311ba9610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196b9c2e6265cb1894e3dd3f1a49bedd') in 0.013639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Normal.png
+  artifactKey: Guid(3c640d46683672f409a5c2ab049799f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Normal.png using Guid(3c640d46683672f409a5c2ab049799f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d4e9dd124e9aadddb9dc61087bcfd8') in 0.013363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_AmbientOcclusion.png
+  artifactKey: Guid(1c5a565dbd341774b9608312c1601eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_AmbientOcclusion.png using Guid(1c5a565dbd341774b9608312c1601eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c715a0254437912e5fd9fe652d677f') in 0.012456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Height.png
+  artifactKey: Guid(7eec2347c647885419631df1e5ce0a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Torch Variation 001)_Height.png using Guid(7eec2347c647885419631df1e5ce0a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0beddaa621d7d0079519aa45cea8c59') in 0.013253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_Metallic.png
+  artifactKey: Guid(cb6243f33557cd3409ebf46a2fb4b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Fire (Fire Chalice Variation 001)_Metallic.png using Guid(cb6243f33557cd3409ebf46a2fb4b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999987f27962b3240e9da893fc60afe2') in 0.007861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Small Crate Variation 001)_Metallic.png
+  artifactKey: Guid(e3198b7327242b04e9f237afbd27ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Brown Wood (Small Crate Variation 001)_Metallic.png using Guid(e3198b7327242b04e9f237afbd27ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5b6d03e9f75f1ee64b2903830d4990') in 0.008608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.905271 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor Rock Variation 001)_Albedo.png
+  artifactKey: Guid(37158dd1f002b3e408f0eb7c502c0538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor Rock Variation 001)_Albedo.png using Guid(37158dd1f002b3e408f0eb7c502c0538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed2d9b95de019aa59781c0f70eada40') in 0.029396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor Rock Variation 001)_MaskMap.png
+  artifactKey: Guid(31d0faed8f76daf4f8341993245691fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor Rock Variation 001)_MaskMap.png using Guid(31d0faed8f76daf4f8341993245691fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5885340bdb5257e3fc34907b97e02b') in 0.013218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor rock Variation 002)_Normal.png
+  artifactKey: Guid(134ae49b09b24e4488bde5c81d921811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor rock Variation 002)_Normal.png using Guid(134ae49b09b24e4488bde5c81d921811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a1c3429ec520cdf5ab378d4d60be2a') in 0.013529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor Rock Variation 003)_Height.png
+  artifactKey: Guid(cfab98ee2a2561f4f95bf9df77c73171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Floor Stones (Floor Rock Variation 003)_Height.png using Guid(cfab98ee2a2561f4f95bf9df77c73171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3867641c9a39be01a4c95385e0728a4') in 0.016835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_Albedo.png
+  artifactKey: Guid(c266de17889ff434e8e132dace147cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_Albedo.png using Guid(c266de17889ff434e8e132dace147cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d112e3a20a79f93ff72cad924e7ea4e') in 0.013714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Lava Grate (Lava Grate Variation 001)_Normal.png
+  artifactKey: Guid(48c50f332c2efc74cb549449775f7bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Lava Grate (Lava Grate Variation 001)_Normal.png using Guid(48c50f332c2efc74cb549449775f7bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f726097d29fc22ada3b8c1ad591fca7a') in 0.013329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.471682 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_Normal.png
+  artifactKey: Guid(61d1a1c35051c454488414da26d1d6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf empty Variation 002)_Normal.png using Guid(61d1a1c35051c454488414da26d1d6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbaaee7b39248d324479931bd36eeac') in 0.019379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf Variation 002)_BaseMap.png
+  artifactKey: Guid(faadac6ab3b67c74581a744bf85d3d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Light Brown Wood (Bookshelf Variation 002)_BaseMap.png using Guid(faadac6ab3b67c74581a744bf85d3d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c0e20200ffb577a560cd1a0e6b0b95') in 0.023327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_AmbientOcclusion.png
+  artifactKey: Guid(76716d961fbe6c74a8834049f9bab069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_AmbientOcclusion.png using Guid(76716d961fbe6c74a8834049f9bab069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e9970b06df0fff280c2eb69038f74e') in 0.012232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010246 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Candelabra Variation 001)_BaseMap.png
+  artifactKey: Guid(b671ed370cfd9cf459630a71bc6950b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Candelabra Variation 001)_BaseMap.png using Guid(b671ed370cfd9cf459630a71bc6950b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3c317ca886aa8e7e101ac50dbc4130') in 0.015074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 001)_BaseMap.png
+  artifactKey: Guid(889a6c2a0745f4145a0b2d43c7aae62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 001)_BaseMap.png using Guid(889a6c2a0745f4145a0b2d43c7aae62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d91802efda5d660d2685e5cc91ca5e') in 0.015198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Door Variation 001)_Albedo.png
+  artifactKey: Guid(d406bffb8cfca094e885755f6627d081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Door Variation 001)_Albedo.png using Guid(d406bffb8cfca094e885755f6627d081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c51c6c1cd0cd18c98c287cddfb5e95e') in 0.018608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.984926 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 001)_Metallic.png
+  artifactKey: Guid(c77728830ff1ae544a006663b8c84848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 001)_Metallic.png using Guid(c77728830ff1ae544a006663b8c84848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f69cb97fc4f62a6c6c7df3e2ed33d4') in 0.028801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_Metallic.png
+  artifactKey: Guid(f792be395a35f3343b1cddfdf1856f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_Metallic.png using Guid(f792be395a35f3343b1cddfdf1856f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50d38065ef39761f01b260ec19c1d91') in 0.008795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_Albedo.png
+  artifactKey: Guid(b785275415e8dff4f962036be0cd654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Gated Variation 003)_Albedo.png using Guid(b785275415e8dff4f962036be0cd654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bc2c64863c1f7f0e50d34888c7cff6') in 0.013534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018723 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 004)_AmbientOcclusion.png
+  artifactKey: Guid(73b77f4d82090e3459a58695a76993a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 004)_AmbientOcclusion.png using Guid(73b77f4d82090e3459a58695a76993a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d470bc8e022314d0065161280cb2d5') in 0.014366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 005)_BaseMap.png
+  artifactKey: Guid(40be744227565b546a1fc026f2959967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 005)_BaseMap.png using Guid(40be744227565b546a1fc026f2959967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a99794991bc9a2f7b3776d912d2b53') in 0.019237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 005)_Normal.png
+  artifactKey: Guid(589086695af681b43b93d26677d7886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 005)_Normal.png using Guid(589086695af681b43b93d26677d7886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521b3fc180f94902f6b0c025c0dc1d29') in 0.018941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Grate Variation 001)_BaseMap.png
+  artifactKey: Guid(79f6ac13b5a6f78488edc216cc0ccdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Grate Variation 001)_BaseMap.png using Guid(79f6ac13b5a6f78488edc216cc0ccdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98e7a0a4f471f46e032bb4161203a7e') in 0.013820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Grate Variation 001)_Normal.png
+  artifactKey: Guid(c5f343102dc42b64abe7da3e31c3f010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Grate Variation 001)_Normal.png using Guid(c5f343102dc42b64abe7da3e31c3f010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bde736aeebf5334947fc4ecd05d7195') in 0.014183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Grate Variation 001)_Metallic.png
+  artifactKey: Guid(e45bf4be34b12194dbe17430f98d3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Grate Variation 001)_Metallic.png using Guid(e45bf4be34b12194dbe17430f98d3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1062cbd3aba764839ce685de07585225') in 0.008253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 006)_Height.png
+  artifactKey: Guid(ab7e6918e976b5843b352ee1df8dc068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Doorway Variation 006)_Height.png using Guid(ab7e6918e976b5843b352ee1df8dc068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2715d38cb527ebc8e4148c235ff596f7') in 0.014580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.368738 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 001)_Albedo.png
+  artifactKey: Guid(4ba4bd707b8e05441a6789abc9c64b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 001)_Albedo.png using Guid(4ba4bd707b8e05441a6789abc9c64b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032adb7ee3eff096a32db03fa700f3bd') in 0.028369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 002)_BaseMap.png
+  artifactKey: Guid(d0d1b64ffa85c7e428362ebed53b721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 002)_BaseMap.png using Guid(d0d1b64ffa85c7e428362ebed53b721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e8740327b63332f4ed8ea0c519a230') in 0.011707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Water Grate Variation 001)_MaskMap.png
+  artifactKey: Guid(f1fe990a700bc9841b01f910513e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Water Grate Variation 001)_MaskMap.png using Guid(f1fe990a700bc9841b01f910513e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a30d6afeaa094fe921f4969328c8ec8') in 0.017178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 001)_Metallic.png
+  artifactKey: Guid(9e7f00efcc871b84aa374064460e60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 001)_Metallic.png using Guid(9e7f00efcc871b84aa374064460e60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f25243ccf918b2a32b3972b9ba8cec0') in 0.014273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Arch Variation 001)_BaseMap.png
+  artifactKey: Guid(808d231b3b8fa5c4c8e184233b415c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Arch Variation 001)_BaseMap.png using Guid(808d231b3b8fa5c4c8e184233b415c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd393ccfee3ae756cf857a18fc7b8b') in 0.014070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Gated Variation 001)_Normal.png
+  artifactKey: Guid(9e7d8428e70d72d448c925707b10ceb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Gated Variation 001)_Normal.png using Guid(9e7d8428e70d72d448c925707b10ceb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6b6c1e3818e4ce1c32f835c027f2e4') in 0.015902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 001)_BaseMap.png
+  artifactKey: Guid(b6f9ece7c14dec7489f6a675b011539b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 001)_BaseMap.png using Guid(b6f9ece7c14dec7489f6a675b011539b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f96efb2725e228207317ece18b54610') in 0.014353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Gated Variation 003)_AmbientOcclusion.png
+  artifactKey: Guid(8d6b2ca71a5cd7541ae3db9d28e00264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Gated Variation 003)_AmbientOcclusion.png using Guid(8d6b2ca71a5cd7541ae3db9d28e00264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8b6f10fc8fd7d835da31336d11f45f') in 0.022205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Arch Variation 001)_Metallic.png
+  artifactKey: Guid(5f8f22e5d6e844845b2a153836994464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Arch Variation 001)_Metallic.png using Guid(5f8f22e5d6e844845b2a153836994464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd539be1415840ef065cb2e786ee619c') in 0.008634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 002)_MaskMap.png
+  artifactKey: Guid(2dc3e9d5383c0dd4e80116cd72292ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 002)_MaskMap.png using Guid(2dc3e9d5383c0dd4e80116cd72292ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab08d085669a68b32dc37e9aa66d7c7') in 0.014716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Gated Variation 002)_Normal.png
+  artifactKey: Guid(a7026d2fddbfdb249aa92f9bc7f59933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Gated Variation 002)_Normal.png using Guid(a7026d2fddbfdb249aa92f9bc7f59933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f27fff3df7e76d5507ab85f775575d') in 0.014149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 001)_MaskMap.png
+  artifactKey: Guid(408a990f3615aa34bb1028c0e22f1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 001)_MaskMap.png using Guid(408a990f3615aa34bb1028c0e22f1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d964c90161dd2258dc7850a7726295f') in 0.019456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 002)_MaskMap.png
+  artifactKey: Guid(d5dc1a5b5695278419bfb707d51e0581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Metal (Torch Variation 002)_MaskMap.png using Guid(d5dc1a5b5695278419bfb707d51e0581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d41c54fcbc83178cac60ca4e86609f') in 0.018384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.471998 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 003)_Metallic.png
+  artifactKey: Guid(939d2800baafaaf41a754df472595dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 003)_Metallic.png using Guid(939d2800baafaaf41a754df472595dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b7023a1894b5200f9988c0a769376e') in 0.012177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 005)_Height.png
+  artifactKey: Guid(140a39a11bb59e74e80d17ea84d23d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 005)_Height.png using Guid(140a39a11bb59e74e80d17ea84d23d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03dce010a5254b61fcd4c69d6b249c7') in 0.015108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 004)_BaseMap.png
+  artifactKey: Guid(e6af45caf76a67e42bbdeee15bd97cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 004)_BaseMap.png using Guid(e6af45caf76a67e42bbdeee15bd97cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6e53471c225b5d9bf985b467b5310f') in 0.014271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 005)_MaskMap.png
+  artifactKey: Guid(0c2e2997877bf984882b5ef26c92ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Components/Texture Maps/ModularDungeonSeperatedMaterials_Secondary Stone (Doorway Variation 005)_MaskMap.png using Guid(0c2e2997877bf984882b5ef26c92ec58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad81067ff379b21c0ef47ba518c1bb3') in 0.015170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.042557 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Arch & Pillars/Pillar Parent 001.prefab
+  artifactKey: Guid(77c8c1c2c662d3c41aad2278a254fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Arch & Pillars/Pillar Parent 001.prefab using Guid(77c8c1c2c662d3c41aad2278a254fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd72c114f72d32015e50c404c538f2db') in 0.251740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 13.336741 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Bridge.mat
+  artifactKey: Guid(2b76c6a7f19209d44b972f9272f8f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Bridge.mat using Guid(2b76c6a7f19209d44b972f9272f8f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07504f3a06beeb3f6982b046aafcea51') in 0.051786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Mushrooms03.mat
+  artifactKey: Guid(22ea887dce70c8a4981f2efa40d69f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Mushrooms03.mat using Guid(22ea887dce70c8a4981f2efa40d69f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2660586b972629d7c09d57bb02cc6ca') in 0.097433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Skybox_NIGHT.mat
+  artifactKey: Guid(538e81a3dd9acdc428c9dcefcbb6f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Skybox_NIGHT.mat using Guid(538e81a3dd9acdc428c9dcefcbb6f566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c274c026791faccfe81cca5f610e9c5b') in 0.023336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Stone01.mat
+  artifactKey: Guid(5a6a284fcef220e4cbee9f3449f05688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Stone01.mat using Guid(5a6a284fcef220e4cbee9f3449f05688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731a2c4280c3bbd15d6ca05321db5fbd') in 0.045312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Materials/Fir_branch.mat
+  artifactKey: Guid(34393798cc9f8244fb220442dbce74de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Materials/Fir_branch.mat using Guid(34393798cc9f8244fb220442dbce74de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2445fd5a0818180025baf74b0c6460') in 0.038724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 71.989294 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Light Sources/Candle Parent 001.prefab
+  artifactKey: Guid(46ba410235699e54ea5e836af9e36c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Light Sources/Candle Parent 001.prefab using Guid(46ba410235699e54ea5e836af9e36c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90a2c945cc846c82898b5d5d02ce220') in 0.082341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 495
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Light Sources/Torch Parent 001.prefab
+  artifactKey: Guid(99a8578a2180fe04b894fa6decac87ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Light Sources/Torch Parent 001.prefab using Guid(99a8578a2180fe04b894fa6decac87ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987a7a4c3183bcc941289a7226cb91f5') in 0.044640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 454
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Light Sources/Stone Chalice Parent 001.prefab
+  artifactKey: Guid(51d11766decae9140a012d7c173844a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Light Sources/Stone Chalice Parent 001.prefab using Guid(51d11766decae9140a012d7c173844a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f4d6876489fbc611a8a44858310e7f') in 0.048492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 448
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Light Sources/Stone Chalice Parent 002.prefab
+  artifactKey: Guid(2477f1925337568479938d135074d127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Light Sources/Stone Chalice Parent 002.prefab using Guid(2477f1925337568479938d135074d127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519e847d40078c875012fd74c48b8704') in 0.021268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Light Sources/Lava Grate Parent 001.prefab
+  artifactKey: Guid(4e4108b8244889646b6ea581c4a3f716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Light Sources/Lava Grate Parent 001.prefab using Guid(4e4108b8244889646b6ea581c4a3f716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b82c45d5a80ec6d87271d0249a7580') in 0.088409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Light Sources/Water Grate Parent 001.prefab
+  artifactKey: Guid(c23e31fa1d2ac1c4b808105671ec82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Light Sources/Water Grate Parent 001.prefab using Guid(c23e31fa1d2ac1c4b808105671ec82dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59937be0b47f1c55b327b904f13ce9fc') in 0.028134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Light Sources/Torch Parent 002.prefab
+  artifactKey: Guid(ccbfdc64594325c4ebfb2ccd9a074f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Light Sources/Torch Parent 002.prefab using Guid(ccbfdc64594325c4ebfb2ccd9a074f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fba29dda4b56e2cccfb49bb9d85099') in 0.035259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.664501 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Floors & Stair/Floor Rock Parent 002.prefab
+  artifactKey: Guid(a6aa9f20791939347bece85756b00ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Floors & Stair/Floor Rock Parent 002.prefab using Guid(a6aa9f20791939347bece85756b00ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c17301b048d1ab80e29f06a4770b45b') in 0.020643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Simple Modular Dungeon/Prefabs/Floors & Stair/Stair Parent 001.prefab
+  artifactKey: Guid(aa50862e18c864c4f86eb776cd73070c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Modular Dungeon/Prefabs/Floors & Stair/Stair Parent 001.prefab using Guid(aa50862e18c864c4f86eb776cd73070c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2d654f4de0c4d72cae2ccfff5d16da') in 0.017000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 11.890682 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Bush01.fbx
+  artifactKey: Guid(89786baddf2d7ea43b337b7b94891289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Bush01.fbx using Guid(89786baddf2d7ea43b337b7b94891289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de67c1251624474b4632e3ec71f1ef9') in 0.038700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms03.fbx
+  artifactKey: Guid(d56e8ae00b0790b46a088b268110f038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms03.fbx using Guid(d56e8ae00b0790b46a088b268110f038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e252c88181d7bfe609b972ee87ad502') in 0.021800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms01.fbx
+  artifactKey: Guid(70adb64ae377d7e46aff0cde14f8abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Mushrooms01.fbx using Guid(70adb64ae377d7e46aff0cde14f8abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df102a20c11cca6f42a15d170c27baa1') in 0.066348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Streetlight.fbx
+  artifactKey: Guid(5f0741416272b504489f004f3912e003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Streetlight.fbx using Guid(5f0741416272b504489f004f3912e003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743a1c0973c13ea4d918eb278d4272b5') in 0.041391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Fir.fbx
+  artifactKey: Guid(431d920f0b6f5e34f80cdc143fba0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Fir.fbx using Guid(431d920f0b6f5e34f80cdc143fba0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f638fc9d0ce10510733f074066fdd4') in 0.049077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Meshes/Stump.fbx
+  artifactKey: Guid(364aeddfa00a98e41820d829d289215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Meshes/Stump.fbx using Guid(364aeddfa00a98e41820d829d289215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f1f283bf0cd80eb79ba7be97bc9167') in 0.055126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.573808 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Fir.prefab
+  artifactKey: Guid(681caea7d7db32e468aa5bc7e60da2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Fir.prefab using Guid(681caea7d7db32e468aa5bc7e60da2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b3efc6e2924ad8c9a4ff5121f0db91') in 0.068210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Mushrooms03.prefab
+  artifactKey: Guid(e6ba9b16af0144c428401df4428fde4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Plants/Mushrooms03.prefab using Guid(e6ba9b16af0144c428401df4428fde4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f8d27b67938ac63091dbc642ed976e') in 0.021444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.491564 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_ON.prefab
+  artifactKey: Guid(ca32c1122ba07f94f8e1633d85222ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Prefabs/Props/Streetlight_ON.prefab using Guid(ca32c1122ba07f94f8e1633d85222ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e1d8a4a649b3758dddcf97b70cc190') in 0.020333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 4.658363 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Ground_stone.png
+  artifactKey: Guid(d7dfed569b9ecf9449cda366bc8a4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Ground_stone.png using Guid(d7dfed569b9ecf9449cda366bc8a4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df55a689d1364faefe257af5660ac40d') in 0.024278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Stone.png
+  artifactKey: Guid(93c7a8803499d6a4c851f05c564b922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Landscape/Stone.png using Guid(93c7a8803499d6a4c851f05c564b922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6974ff19aa796242201b843c234599') in 0.038360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.786852 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Bush02_d.png
+  artifactKey: Guid(c58e1d61e2deedd4989d937c27915f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Bush02_d.png using Guid(c58e1d61e2deedd4989d937c27915f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572c9212630f7da0e1c26e6d5e0cb76d') in 0.021805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms03_d.png
+  artifactKey: Guid(0b54492692c3a834e835e32a922982fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Mushrooms03_d.png using Guid(0b54492692c3a834e835e32a922982fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97b51f2e6f5ca37ee36c822195fce4e') in 0.037015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Plants/Fir_branch_d.png
+  artifactKey: Guid(87c48f8e50e12894a994ce2c547f6f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Plants/Fir_branch_d.png using Guid(87c48f8e50e12894a994ce2c547f6f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a4ab8319cc3c5bb9c88f4e3bda2161') in 0.029777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.771361 seconds.
+  path: Assets/SkythianCat/Glowing_Forest/Textures/Props/Streetlight_ON_e.png
+  artifactKey: Guid(cbc7a019f5642ff42987de337d061785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Glowing_Forest/Textures/Props/Streetlight_ON_e.png using Guid(cbc7a019f5642ff42987de337d061785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1c80770763c8e2ddcbf994661fe44b') in 0.025588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.287228 seconds.
+  path: Assets/Hatogame_new/Lizard/Textures/LizardB_Albedo.png
+  artifactKey: Guid(759c98f59e8803f48bd46a879848bc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hatogame_new/Lizard/Textures/LizardB_Albedo.png using Guid(759c98f59e8803f48bd46a879848bc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3bfa706419435fd5a4cc16c26abb4a') in 0.016441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
