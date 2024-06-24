@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
     public Collider WeaponCollider;
     bool canMove = true;
 
+    public AudioSource audioSource;
+    public AudioClip AttackSE;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,25 +45,27 @@ public class PlayerController : MonoBehaviour
         speed = Vector3.zero;
         rot = Vector3.zero;
         isRun = false;
+        WeaponCollider.enabled = false;
+
 
         if (Input.GetKey(KeyCode.W))
-        {
-            rot.y = 0;
-            MoveSet();
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            rot.y = 180;
-            MoveSet();
-        }
-        if (Input.GetKey(KeyCode.A))
         {
             rot.y = -90;
             MoveSet();
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.S))
         {
             rot.y = 90;
+            MoveSet();
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            rot.y = -180;
+            MoveSet();
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            rot.y = 0;
             MoveSet();
         }
 
@@ -95,15 +100,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             PlayerAnimator.SetBool("attack", true);
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                PlayerAnimator.SetBool("attack2", true);
-            }
-            else
-            {
-                return;
-            }
             canMove = false;
+            audioSource.PlayOneShot(AttackSE);
         }
     }
 

@@ -66,6 +66,7 @@
     <Compile Include="Assets\EnemyManager.cs" />
     <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
+    <Compile Include="Assets\StatusManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
