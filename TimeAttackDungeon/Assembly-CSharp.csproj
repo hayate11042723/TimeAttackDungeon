@@ -66,7 +66,10 @@
     <Compile Include="Assets\EnemyManager.cs" />
     <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
+    <Compile Include="Assets\Mountain Terrain rocks and tree\Script\Camera\FlyCameraControl.cs" />
+    <Compile Include="Assets\Mountain Terrain rocks and tree\Script\Camera\CameraControl.cs" />
     <Compile Include="Assets\StatusManager.cs" />
+    <Compile Include="Assets\com\heparo\terrain\toolkit\scripts\TerrainToolkit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

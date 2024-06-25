@@ -369,6 +369,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Cartoon Heroes/Scripts/SetCharacter/Editor/SetCharacterEditor.cs"
+"Assets/com/heparo/terrain/toolkit/editor/TerrainToolkitEditor.cs"
 -langversion:9.0
 
 /deterministic

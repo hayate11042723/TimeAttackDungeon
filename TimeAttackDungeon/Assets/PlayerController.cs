@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             speed.y = Rotation_Speed;
-        }
+        } 
 
         Camera.transform.eulerAngles += speed;
     }
