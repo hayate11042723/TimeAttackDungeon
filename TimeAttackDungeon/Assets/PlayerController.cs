@@ -8,6 +8,11 @@ public class PlayerController : MonoBehaviour
     public float Player_Speed;
     public float Rotation_Speed;
 
+    public float JumpPower;
+    private Rigidbody rb;
+    private bool isJumping = false;
+    bool isJump = false;
+
     Vector3 speed = Vector3.zero;
     Vector3 rot = Vector3.zero;
 
@@ -20,10 +25,12 @@ public class PlayerController : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip AttackSE;
 
+    public string TagName;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -32,6 +39,7 @@ public class PlayerController : MonoBehaviour
         Move();
         Rotation();
         Attack();
+        Jump();
         Camera.transform.position=transform.position;
     }
 
@@ -119,5 +127,26 @@ public class PlayerController : MonoBehaviour
     void CanMove()
     {
         canMove = true;
+    }
+
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow) && !isJumping)
+        {
+            rb.velocity = Vector3.up * JumpPower;
+
+            isJumping = true;
+            PlayerAnimator.SetBool("jump", true);
+            isJump = true;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag(TagName))
+        {
+            isJumping = false;
+            isJump = false;
+        }
     }
 }
