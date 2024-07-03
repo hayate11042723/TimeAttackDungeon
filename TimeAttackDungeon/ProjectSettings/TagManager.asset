@@ -8,6 +8,8 @@ TagManager:
   - Weapon
   - Floor
   - Enemy_B
+  - ExitPortal
+  - EnterPortal
   layers:
   - Default
   - TransparentFX
