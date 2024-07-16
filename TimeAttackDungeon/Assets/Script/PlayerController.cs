@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float JumpPower;
     private Rigidbody rb;
     private bool isJumping = false;
-    bool isJump = false;
+    //bool isJump = false;
 
     Vector3 speed = Vector3.zero;
     Vector3 rot = Vector3.zero;
@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         Move();
         Rotation();
         Attack();
-        Jump();
+        //Jump();
         Camera.transform.position=transform.position;
     }
 
@@ -129,24 +129,24 @@ public class PlayerController : MonoBehaviour
         canMove = true;
     }
 
-    void Jump()
-    {
-        if (Input.GetKeyDown(KeyCode.UpArrow) && !isJumping)
-        {
-            rb.velocity = Vector3.up * JumpPower;
+    //void Jump()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.UpArrow) && !isJumping)
+    //    {
+    //        rb.velocity = Vector3.up * JumpPower;
 
-            isJumping = true;
-            PlayerAnimator.SetBool("jump", true);
-            isJump = true;
-        }
-    }
+    //        isJumping = true;
+    //        PlayerAnimator.SetBool("jump", true);
+    //        isJump = true;
+    //    }
+    //}
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.CompareTag(TagName))
-        {
-            isJumping = false;
-            isJump = false;
-        }
-    }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if(collision.gameObject.CompareTag(TagName))
+    //    {
+    //        isJumping = false;
+    //        isJump = false;
+    //    }
+    //}
 }

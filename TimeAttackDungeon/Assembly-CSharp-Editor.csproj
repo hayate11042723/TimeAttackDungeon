@@ -61,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cartoon Heroes\Scripts\SetCharacter\Editor\SetCharacterEditor.cs" />
-    <Compile Include="Assets\unitytyann\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
     <Compile Include="Assets\com\heparo\terrain\toolkit\editor\TerrainToolkitEditor.cs" />
   </ItemGroup>
   <ItemGroup>
